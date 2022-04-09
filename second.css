@@ -1,0 +1,61 @@
+header {
+    background-color:blueviolet;
+    padding-top: 10px;
+    padding-right: 20px; 
+    padding-bottom: 10px;
+    padding-left: 500px;
+    font-size: 30px;
+}
+section {
+    display: inline-flex;
+    background-color: aqua;
+}
+.image{
+    margin: 0.5%;/*the space around an element's border*/
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-color: palevioletred;
+
+}
+.first{
+    margin: 0.5%;
+    height: 200px;
+    width: 30%;
+    position: relative; /*the element is positioned relative to its normal position*/
+    overflow: hidden; /*The overflow is clipped, and the rest of the content will be invisible*/
+
+}
+.sec{
+    margin: 0.5%;
+    height: 200px;
+    width: 30%;
+    position: relative; /*the element is positioned relative to its normal position*/
+    overflow: hidden; /*The overflow is clipped, and the rest of the content will be invisible*/
+
+}
+.third{
+    margin: 0.5%;
+    height: 200px;
+    width: 30%;
+    position: relative; /*the element is positioned relative to its normal position*/
+    overflow: hidden; /*The overflow is clipped, and the rest of the content will be invisible*/
+}
+.fourth{
+    background-color: plum;
+    display: inline; /*the element is displayed inline, inside the current block on the same line.*/
+    float: right;
+    margin: 0.5%;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+footer{
+    background-color: rgb(237, 21, 104);
+    padding: 20px;
+    font-size: 20px;
+}

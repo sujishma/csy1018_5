@@ -1,0 +1,86 @@
+header {
+    font-size: 30px;
+    background-color: white;
+    
+}
+.top ul{
+    overflow: auto;
+    margin: 5px;
+}
+.top li {
+    float: left;
+    list-style: none;
+    margin: 0.5%;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+.top ul li a {
+    text-decoration: none;
+    background: orangered;
+    display: block; /*makes the whole link area clickable */
+    color: white;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #333;
+    margin-top: 10px; /*sets the margin area on the top of an element*/
+}
+
+.navbar ul {
+    overflow: auto; /* Enable scrolling if the sidenav has too much content,adds vertical scroll bar*/
+    margin: 5px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 0.5%;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    display: block; /*makes the whole link area clickable */
+    color: white;
+    width: 100%;
+
+   
+}
+li a:hover {
+    background-color: black;
+}
+
+section {
+    display: inline-flex;
+}
+.center{
+    margin: 0.5%;
+    height: 400px;
+    width: 90%;
+    position: relative; /*the element is positioned relative to its normal position*/
+    overflow: hidden; /*The overflow is clipped, and the rest of the content will be invisible*/
+
+}
+
+.third {
+    background: peachpuff;
+    display: inline;
+    float: right;
+    margin: 0.5%;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+footer{
+    background-color: thistle;
+    color:black;
+    padding: 20px;
+    font-size: 20px;
+}
